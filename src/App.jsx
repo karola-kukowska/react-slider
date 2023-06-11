@@ -1,7 +1,10 @@
+import Carousel from "./Carousel";
+import SlickSlider from "./SlickSlider";
 const App = () => {
   return (
-    <main>
-      <h2>Slider Starter</h2>
+    <main className="main">
+      {/* <Carousel /> */}
+      <SlickSlider />
     </main>
   );
 };
